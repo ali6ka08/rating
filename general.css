@@ -12,3 +12,22 @@
 	overflow:hidden;
 	margin-bottom:10px;
 }
+.cover{
+	display:block;
+	margin-bottom:5px;
+}
+.rt{
+	display:inline-block;
+	border:1px solid #000;
+	padding:1px 5px;
+	margin:0 2px;
+	background:silver;
+	color:#2a2a2a;
+}
+#rt_txt{
+	display:inline-block;
+	margin-bottom:5px;
+}
+hr{
+	border:1px solid #343434;
+}
