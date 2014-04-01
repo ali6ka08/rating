@@ -43,3 +43,35 @@
 hr{
 	border:1px solid #343434;
 }
+#bottom_content{
+	margin-left:3px;
+	margin-bottom:10px;
+}
+#com{
+	display:inline-block;
+}
+#com_container{
+	margin: 4px 0;
+}
+#comment{
+	outline:none;
+	height:50px;
+	width:270px;
+	resize:none;
+}
+#rate + input[type="submit"]{
+	margin-top:10px;
+}
+select[name='rate']{
+	border:1px solid #343434;
+	width:50px;
+}
+#comment_cont{
+	margin-left:3px;
+}
+#commenttxt{
+	border-top:1px solid #343434;
+	border-bottom:1px solid #343434;
+	padding:4px 0 4px 2px;
+	margin-bottom:10px;
+}
