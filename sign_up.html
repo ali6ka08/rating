@@ -41,6 +41,21 @@
 <td><input id="button" type="submit" name="submit" value="Sign-Up"></td>
 </tr>
 </form>
+<?php 
+	if(count($ers) != 0)
+	{
+		?>
+			<td width='100%' colspan='2'>
+				<?php 
+					foreach($ers as $v)
+					{
+						echo "<div id='errors'>$v</div>";
+					}
+				?>
+			</td>
+		<?php
+	}
+?>
 </table>
 </fieldset>
 </div>
